@@ -1,0 +1,109 @@
+<style>
+ /* Set Fixed Width */
+#s4-bodyContainer{
+    width: auto;
+    margin: auto;
+} 
+/* Set Column Spacing */
+       .welcome blank-wp {padding: 0px !important;}
+       .cell-margin {margin-top: 10px;margin-bottom: 10px;}
+       .tableCol-75 {padding-left: 15px; Width: 75% !Important;}
+       .tableCol-25 {margin-top: 215px; Width: 0% !Important;}
+       .tableCol-50 {Width: 50% !Important; vertical-align: top;}
+       .ms-table .tableCol-50:first-child {padding-right: 15px; vertical-align:top;}
+       .tableCol-33 {padding-left: 15px; padding-right: 15px; Width: 33% !Important; vertical-align: top;}
+       .ms-table .tableCol-33:first-child {padding-top: 0px; padding-left: 0px; padding-bottom: 0px; vertical-align: top;}
+
+.ms-tileview-tile-content {
+ background-color: #E20074;
+}
+/* Set Width on Promoted Links */
+.ms-promlink-body {
+    width: 100%;
+}
+/*hide the arrows when you have more items than viewable*/
+.ms-promlink-header{
+display:none;
+}
+body.ms-backgroundImage {
+  background: url("https://tmobileusa.sharepoint.com/sites/wfm/SiteAssets/0003_pattern-tile-black-2_large.png");
+}
+/* Resize navigation fly-out width */
+ul.dynamic {
+  width: 300px !important;  /* !important needed to override inline SharePoint style */
+}
+/* Resize navigation fly-out width */
+ul.dynamic {
+  width: auto !important;  /* !important needed to override inline SharePoint style */
+  white-space: nowrap;
+}
+ul.dynamic li {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+ul.dynamic li:first-child {
+  border-top: 0;
+}
+/*Style Content Box */
+.ms-pub-contentLayout {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #E20074;
+}
+/* Change font size of tile text */
+.ms-tileview-tile-titleMedium, .ms-tileview-tile-titleLarge {
+   font-size: 1.05em;
+}
+/* Change font size of Site Title */
+#ctl00_PlaceHolderSiteName_onetidProjectPropertyTitle1 {
+   font-size: 1.25em;
+}
+/* Add spacing below Site Title
+.ms-core-pageTitle {
+height: 1.75em;
+} */
+
+/* Increase Font Size on Web Part Titles 
+.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
+   font-size: 2em;*/
+} 
+/* Hide Edit Links from nav */
+.ms-navedit-editLinksText {
+  display: none;
+} /*Hide H1 Page Title */
+#pageContentTitle {
+  display: none;
+
+}
+.ms-core-pageTitle a {
+  color:}
+.ms-core-pageTitle a {
+  color: #E20074;
+} 
+}
+/* Hide Link List Column header */
+ .ms-viewheadertr { display: none;} 
+
+/* Hide Link List URL Label */
+.ms-stylelabel { display: none; }
+
+/*Style Link Boxes */
+.ms-stylebox:hover { background-color: #E20074; }
+
+.ms-stylebox { 
+  background-color: #6a6a6a; 
+  vertical-align: middle;
+} 
+td.ms-stylebody {
+  text-align: center;
+  height: 75px;
+}
+.ms-stylebody a { 
+  font-size: 1em;
+  color: #fff; 
+  text-decoration: none;
+} 
+#titlerow { background-color: rgb(255, 255, 255); }
+/* Change Visited Link Color */
+a:visited { color: #e20074; }
+</style>
